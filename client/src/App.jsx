@@ -1,12 +1,12 @@
-import "./App.css";
-import Post from "./Post.jsx";
-import Header from "./Header.jsx";
-import { Routes, Route } from "react-router-dom";
+import './App.css';
+import Post from "./Post";
+import Header from "./Header";
+import {Route, Routes} from "react-router-dom";
 import Layout from "./Layout.jsx";
 import IndexPage from "./pages/IndexPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
-import { UserContextProvider } from "./userContext.jsx";
+import {UserContextProvider} from "./UserContext";
 import CreatePost from "./pages/CreatePost.jsx";
 import PostPage from "./pages/PostPage.jsx";
 import EditPost from "./pages/EditPost.jsx";
